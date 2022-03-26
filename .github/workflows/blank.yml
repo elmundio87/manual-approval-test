@@ -32,6 +32,6 @@ jobs:
           # Required approvers
           approvers: elmundio87, elmundio88
           # Secret
-          secret: ${{ secret.TOKEN }}
+          secret: ${{ secrets.TOKEN }}
           minimum_approvals: 1
 
