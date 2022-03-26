@@ -30,7 +30,7 @@ jobs:
         uses: elmundio87/manual-approval@set-minimum-approvals
         with:
           # Required approvers
-          approvers: elmundio87
+          approvers: elmundio87,dippledog
           # Secret
           secret: ${{ secrets.TOKEN }}
           minimum_approvals: 1
