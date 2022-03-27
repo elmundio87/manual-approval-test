@@ -27,7 +27,7 @@ jobs:
       - name: Manual Workflow Approval
         # You may pin to the exact commit or the version.
         # uses: trstringer/manual-approval@31a4889bfda4d6c897cd8636625853a8e0bd314a
-        uses: elmundio87/manual-approval@set-minimum-approvals
+        uses: elmundio87/manual-approval@test-docker-image
         with:
           # Required approvers
           approvers: elmundio87,dippledog
