@@ -33,5 +33,5 @@ jobs:
           approvers: elmundio87,dippledog
           # Secret
           secret: ${{ secrets.TOKEN }}
-          minimum_approvals: 1
+          minimum-approvals: 1
 
