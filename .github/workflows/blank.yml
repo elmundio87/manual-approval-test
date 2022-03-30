@@ -30,7 +30,7 @@ jobs:
         uses: elmundio87/manual-approval@test-docker-image
         with:
           # Required approvers
-          approvers: elmundio87,dippledog
+          approvers: elmundio87
           # Secret
           secret: ${{ secrets.TOKEN }}
           minimum-approvals: 1
